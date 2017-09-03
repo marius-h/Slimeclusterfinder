@@ -1,4 +1,4 @@
-# slimefinder
+# Slimeclusterfinder
 Program to find slimechunk clusters
 
 # How to use
