@@ -15,5 +15,6 @@ Program to find slimechunk clusters
 
 # How to contribute
 contact me over discord (@Couch#2917) for:
-  - bugs, inconveniences
+  - bugs
+  - inconveniences
   - suggestions
