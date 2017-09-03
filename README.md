@@ -14,6 +14,6 @@ Program to find slimechunk clusters
 10. Open up the generated txt-file
 
 # How to contribute
-- contact me over discord (@Couch#2917) for:
+contact me over discord (@Couch#2917) for:
   - bugs, inconveniences
   - suggestions
