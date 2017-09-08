@@ -12,7 +12,7 @@ public class Logging {
 	private Point largestCluster, smallestCluster, closestCluster;
 	private int largestAmount, smallestAmount, closestAmount, found;
 	
-	public Logging(long seed, int range, int min, int max) {	
+	public Logging(long seed, int range, int min, int max, int x, int z) {	
 		largestAmount = -1;
 		smallestAmount = 10000;
 		smallestCluster = new Point(10000000, 10000000);
@@ -24,7 +24,7 @@ public class Logging {
 		} catch (Exception e) {	}
 		
 		String str = "Slimechunk Cluster Finder by Couch\n\nSearching for a cluster with " + min + "-" + max + " slimechunks for seed <" + seed + "> in a radius of <" + range
-				+ "> chunks...\n\n";
+				+ "> chunks around " + x + "/" + z + "...\n\n";
 		try {
 			writing.write(str);
 		} catch (IOException e) {}	
